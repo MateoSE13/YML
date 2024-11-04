@@ -50,6 +50,7 @@ pgadmin: Este servicio utiliza la imagen de PgAdmin, configurando credenciales d
 ### Paso 2: Iniciar los contenedores
 Desde el terminal, navega hasta el directorio donde creaste el archivo docker-compose.yml y ejecuta el siguiente comando para iniciar los contenedores:
 ![image](https://github.com/user-attachments/assets/13488bf5-692b-4e54-a2b2-a3d901db40f9)
+
 El indicador -d ejecuta los contenedores en segundo plano.
 
 
@@ -60,14 +61,19 @@ Para asegurarte de que ambos contenedores están corriendo, utiliza el comando:
 
 ### Paso 4: Acceso a PgAdmin
 Abre un navegador y accede a http://localhost:5050. Inicia sesión con el email y la contraseña configurados en docker-compose.yml (admin@example.com / practica1).
+![image](https://github.com/user-attachments/assets/2f49c616-0e17-4d86-bf7a-2edda89150a9)
+
 ![image](https://github.com/user-attachments/assets/9211fd0b-9f19-40c3-afa2-10c57c757d92)
 
 ### Paso 5: Conectar PgAdmin a PostgreSQL
-En la interfaz de PgAdmin, crea una nueva conexión de servidor con los siguientes datos:
-![image](https://github.com/user-attachments/assets/80351b0c-3d0c-41be-bfa4-2eb3354d4886)
+En la interfaz de PgAdmin, crea una nueva conexión de servidor
+![image](https://github.com/user-attachments/assets/0c737e10-3ffa-4ac9-8d7d-2a3de8a57810)
+
 
 ### Paso 6. Resultados esperados
 Al finalizar la práctica, debería tener un contenedor PostgreSQL y un contenedor PgAdmin en ejecución. PgAdmin debería conectarse correctamente a la base de datos PostgreSQL, permitiéndo administrar la base de datos desde una interfaz gráfica.
+![image](https://github.com/user-attachments/assets/80351b0c-3d0c-41be-bfa4-2eb3354d4886)
+
 
 ### Paso 7 Bibliografía
 Merkel, D. (2014). Docker: Lightweight Linux Containers for Consistent Development and Deployment. Linux Journal, 2014(239), 2.
